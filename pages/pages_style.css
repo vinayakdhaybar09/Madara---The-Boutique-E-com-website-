@@ -1,0 +1,197 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* -----------------Navbar---------------------------------------- */
+.navbar {
+    height: 100px;
+    /* padding: 0px 20px; */
+    display: flex;
+    justify-content: space-between;
+    /* box-shadow: 10px 0px 44px -35px #5c3737; */
+    margin-bottom: 5px;
+    background-color: #f7e0e0;
+
+}
+
+.navbar .logo_img img {
+    width: 200px;
+    height: 100px;
+}
+ 
+.navbar .nav_container {
+    display: flex;
+    flex-direction: column;
+    width: 78%;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-right: 20px;
+}
+
+.navbar .nav_container .upper_nav {
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+}
+
+.navbar .nav_container .upper_nav a {
+    padding-left: 20px;
+    text-decoration: none;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 600;
+    color: brown;
+}
+.navbar .nav_container .upper_nav a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.navbar .nav_container .main_nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .nav_container .main_nav {
+    margin-top: 10px;
+}
+
+.navbar .nav_container .main_nav a {
+    padding-left: 20px;
+    text-decoration: none;
+    font-family: 'Mukta', sans-serif;
+    /* font-weight: 600; */
+    color: black;
+    font-size: 17px;
+}
+.navbar .nav_container .main_nav a:hover{
+    text-decoration: underline;
+}
+/* -------------------------sarees--------------------------- */
+
+main{
+    padding: 0px 60px;
+}
+main h1{
+    text-align: center;
+    margin: 30px 0px;
+    font-family: 'Rubik', sans-serif;
+    
+}
+main .container .row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+main .container .row a{
+    text-decoration: none;
+}
+main .container .row a .box{
+    /* border: 2px solid black; */
+    width: 250px ;
+    height: 500px;
+    /* box-shadow: 2px 2px 14px -4px black; */
+    border-radius: 20px;
+}
+main .container .row a .box:hover{
+    background-color: #fdfad8;
+    box-shadow: 0px 2px 21px -4px black;
+}
+main .container .row a .box img{
+    width: 100%;
+    height: 376px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+main .container .row a .box .box_info{
+    padding: 10px 10px;
+}
+main .container .row a .box .box_info .title{
+    width: 100%;
+    height: auto;
+    font-family: 'Dosis', sans-serif;
+    color: black;
+    opacity: 0.9;
+    font-size: 14px;
+}
+main .container .row a .box .box_info .price_buy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    color: black;
+    font-family: 'Dosis', sans-serif;
+}
+main .container .row a .box .box_info .price_buy .fa-indian-rupee-sign::before{
+    content: "\e1bc";
+    font-size: 19px;
+    padding: 0px 5px;
+}
+main .container .row a .box .box_info .price_buy .fa-cart-arrow-down{
+    content: "\f218";
+    font-size: 16px;
+    padding: 0px 5px;
+}
+main .container .row a .box .box_info .price_buy .price{
+    font-size: 22px;
+}
+main .container .row a .box .box_info .price_buy .buybtn{
+
+    border: 1px solid black;
+    padding: 8px 10px;
+    font-family: 'Barlow', sans-serif;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    font-size: 18px;
+}
+main .container .row a .box .box_info .price_buy .buybtn:hover{
+    background-color: #705a34;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------Footer----------------------- */
+
+footer{
+    background-color: #f7e0e0;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Oswald', sans-serif;
+
+}
+footer .conatct_us .contact_data{
+    display: flex;
+    flex-direction: column;
+}
+footer .conatct_us .contact_data p{
+    margin-top: 20px;
+}
+footer .categories .categories_data{
+    display: flex;
+    flex-direction: column;
+}
+footer .categories .categories_data a{
+    text-decoration: none;
+    color: brown;
+    margin-top: 13px;
+}
+footer .social_media{
+    display: flex;
+    flex-direction: column;
+}
+footer .social_media i{
+    font-size: 30px;
+    color: #4a4242;
+}

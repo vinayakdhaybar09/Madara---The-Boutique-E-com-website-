@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: #f7e0e0;
+
+}
+/* -----------------Navbar---------------------------------------- */
+.navbar {
+    height: 100px;
+    /* padding: 0px 20px; */
+    display: flex;
+    justify-content: space-between;
+    /* box-shadow: 10px 0px 44px -35px #5c3737; */
+    margin-bottom: 5px;
+    background-color: #f7e0e0;
+
+}
+
+.navbar .logo_img img {
+    width: 200px;
+    height: 100px;
+}
+ 
+.navbar .nav_container {
+    display: flex;
+    flex-direction: column;
+    width: 78%;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-right: 20px;
+}
+
+.navbar .nav_container .upper_nav {
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+}
+
+.navbar .nav_container .upper_nav a {
+    padding-left: 20px;
+    text-decoration: none;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 600;
+    color: brown;
+}
+.navbar .nav_container .upper_nav a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.navbar .nav_container .main_nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .nav_container .main_nav {
+    margin-top: 10px;
+}
+
+.navbar .nav_container .main_nav a {
+    padding-left: 20px;
+    text-decoration: none;
+    font-family: 'Mukta', sans-serif;
+    /* font-weight: 600; */
+    color: black;
+    font-size: 17px;
+}
+.navbar .nav_container .main_nav a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+/* -----------------foooter----------------------------------- */
+
+
+
+
+footer{
+    background-color: #f7e0e0;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Oswald', sans-serif;
+}
+footer .conatct_us .contact_data{
+    display: flex;
+    flex-direction: column;
+}
+footer .conatct_us .contact_data p{
+    margin-top: 20px;
+}
+footer .categories .categories_data{
+    display: flex;
+    flex-direction: column;
+}
+footer .categories .categories_data a{
+    text-decoration: none;
+    color: brown;
+    margin-top: 13px;
+}
+footer .social_media{
+    display: flex;
+    flex-direction: column;
+}
+footer .social_media i{
+    font-size: 30px;
+    color: #4a4242;
+}
